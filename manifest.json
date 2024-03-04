@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Site Extrator",
+  "version": "1.0",
+  "description": "Adds a button to every webpage.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "Database.json"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}

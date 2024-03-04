@@ -1,0 +1,35 @@
+[
+  {
+    "siteUrl": "https://www.irisfashion.co.uk",
+    "productClass": ".single-product",
+    "productImgClass": ".single-product__image img",
+    "productTitleClass": ".single-product__title",
+    "productDescClass": "",
+    "productPriceClass": ".product-price"
+  },
+  {
+      "siteUrl": "https://jacandjack.co",
+      "productClass": ".product-card",
+      "productImgClass": ".product-card__image-container img",
+      "productTitleClass": ".product-card__title",
+      "productDescClass": "",
+      "productPriceClass": ".product-card__price"
+  },
+  {
+    "siteUrl": "https://doubleboxedtoys.com",
+    "productClass": ".productitem",
+    "productImgClass": ".productitem--image img",
+    "productTitleClass": ".productitem--title",
+    "productDescClass": "",
+    "productPriceClass": ".price--main"
+  },
+  {
+    "siteUrl": "https://www.rebeccaminkoff.com",
+    "productClass": ".ProductCard__infoWrap",
+    "productImgClass": ".ProductCardSlider__slide img",
+    "productTitleClass": ".ProductCard__title",
+    "productDescClass": "",
+    "productPriceClass": ".currency-formatting"
+  }
+    
+]
